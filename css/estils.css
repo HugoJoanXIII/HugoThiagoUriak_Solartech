@@ -290,6 +290,7 @@ img {
         font-size: 18px;
 
         padding-left: 20px;
+
         padding-right: 20px;
 
     }
@@ -300,19 +301,57 @@ img {
 
     }
 
+    /* MENU */
+
+    .navbar .container {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+
+        flex-wrap: nowrap;
+
+    }
+
     .menu-links {
 
-        text-align: center;
+        display: flex;
 
-        margin-top: 15px;
+        align-items: center;
+
+        gap: 15px;
+
+        flex-wrap: nowrap;
 
     }
 
     .menu-links a {
 
-        display: block;
+        margin: 0;
 
-        margin: 10px 0;
+        font-size: 16px;
+
+        display: inline;
+
+    }
+
+    /* IDIOMAS */
+
+    .idiomas {
+
+        display: flex;
+
+        flex-direction: row;
+
+        gap: 10px;
+
+        background-color: #3b3f45;
+
+        padding: 10px 15px;
+
+        border-radius: 15px;
 
     }
 
